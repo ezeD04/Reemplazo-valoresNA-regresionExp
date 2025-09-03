@@ -1,8 +1,5 @@
 # Reemplazo-valoresNA-regresionExp
 Este proyecto de análisis de datos en R se centra en modelar la evolución de los salarios en el sector no registrado a lo largo del tiempo. El objetivo principal fue abordar un problema común en la ciencia de datos: la imputación de datos faltantes (NA), utilizando un enfoque de regresión robusto.
-You want a description for your GitHub project. Based on your code and analysis, a good description should explain the project's purpose, methodology, and key findings.
-
-Here is a template you can use for your README.md file, which is the standard way to describe a project on GitHub.
 
 Descripción del Proyecto: Análisis y Modelado de Salarios en el Sector no Registrado 📊
 Este proyecto de análisis de datos en R se centra en modelar la evolución de los salarios en el sector no registrado a lo largo del tiempo. El objetivo principal fue abordar un problema común en la ciencia de datos: la imputación de datos faltantes (NA), utilizando un enfoque de regresión robusto.
@@ -14,6 +11,5 @@ Transformación Logarítmica: Se identificó una relación de crecimiento expone
 
 Modelo de Regresión: Se ajustó un modelo de regresión lineal simple (lm()) a los datos disponibles. Este modelo demostró ser un predictor muy fuerte, con un R-cuadrado de 0.9277 y coeficientes altamente significativos, lo que confirma la validez del enfoque.
 
-Imputación y Des-linearización: Se utilizó la ecuación del modelo linealizado para predecir los valores faltantes. Luego, se aplicó la transformación inversa (función exponencial, e 
-x
+Imputación y Des-linearización: Se utilizó la ecuación del modelo linealizado para predecir los valores faltantes. Luego, se aplicó la transformación inversa (función exponencial, e^x
  ) para convertir las predicciones de nuevo a la escala original de salarios.
